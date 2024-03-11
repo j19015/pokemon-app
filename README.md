@@ -4,6 +4,9 @@
 # 技術スタック
 - React18
 
+# 使用API
+- [Pokemon API](https://pokeapi.co/)
+
 # 起動方法
 必要なパッケージをinstall
 ```
