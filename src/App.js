@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { getAllPokemon, getPokemon } from './utils/pokemon.js';
-import Card from './components/Card.js';
+import Card from './components/Card/Card.js';
 
 function App() {
   const initialURL = 'https://pokeapi.co/api/v2/pokemon';
@@ -28,8 +28,6 @@ function App() {
     };
     fetchPokemonData();
   }, []);
-
-  console.log(pokemonData);
 
   return (
     <div className="App">
