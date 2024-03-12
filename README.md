@@ -5,6 +5,7 @@
 # 技術スタック
 
 - React18
+- javascript
 
 # コード整形
 
