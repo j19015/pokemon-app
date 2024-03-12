@@ -1,4 +1,4 @@
-const getAllPokemon = (url) =>
+export const getAllPokemon = (url) =>
   new Promise((resolve, reject) => {
     fetch(url)
       .then((res) => res.json())
@@ -6,4 +6,12 @@ const getAllPokemon = (url) =>
       .catch((error) => reject(error));
   });
 
-export default getAllPokemon;
+export const getPokemon = (url) =>
+  new Promise((resolve, reject) => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => {
+        resolve(data);
+      })
+      .catch((error) => reject(error));
+  });
