@@ -16,6 +16,15 @@
 
 - [Pokemon API](https://pokeapi.co/)
 
+# コード整形
+
+- Prettier
+- Eslint(Guide: airbnb)
+
+# 使用API
+
+- [Pokemon API](https://pokeapi.co/)
+
 # 起動方法
 
 必要なパッケージをinstall
