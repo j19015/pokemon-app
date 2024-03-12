@@ -5,6 +5,16 @@
 # 技術スタック
 
 - React18
+- javascript
+
+# コード整形
+
+- Prettier
+- Eslint(Guide: airbnb)
+
+# 使用API
+
+- [Pokemon API](https://pokeapi.co/)
 
 # コード整形
 
@@ -46,7 +56,3 @@ npm start
 - perf: パフォーマンス向上
 - test: テスト関連
 - chore: ビルドプロセス、補助ツール、ライブラリなどの補助ツールや補助ライブラリの変更
-
-```
-
-```
