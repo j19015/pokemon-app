@@ -13,7 +13,7 @@ function Card({ pokemon }) {
       <div className="cartTypes">
         <div>タイプ</div>
         {pokemon.types.map((type) => (
-          <div>
+          <div key={type.type.name}>
             <span className="TypeName">{type.type.name}</span>
           </div>
         ))}
