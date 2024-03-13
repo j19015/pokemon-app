@@ -16,15 +16,6 @@
 
 - [Pokemon API](https://pokeapi.co/)
 
-# コード整形
-
-- Prettier
-- Eslint(Guide: airbnb)
-
-# 使用API
-
-- [Pokemon API](https://pokeapi.co/)
-
 # 起動方法
 
 必要なパッケージをinstall
@@ -42,9 +33,9 @@ npm start
 # ブランチ運用ルール
 
 - main: リリースブランチ
-- develop: 開発ブランチ
-- feature: 機能開発ブランチ
-- hotfix: 緊急修正ブランチ
+  - develop: 開発ブランチ
+    - feature: 機能開発ブランチ
+  - hotfix: 緊急修正ブランチ
 
 # コミットメッセージ
 
